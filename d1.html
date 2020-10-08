@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位1</title>
+	<style>
+			#a {
+				width: 300px;
+				height: 300px;
+				border: 1px solid red;
+				padding: 10px;
+				text-align: center;
+			}
+			.a,.b,.c,.d,.e {
+				width: 100px;
+				height: 100px;
+				background: red;
+				text-align: center;
+				line-height: 100px;
+			}
+			.b {
+				position: relative;
+				right: -200px;
+				top: -100px;
+			}
+			.c {
+				position: relative;
+				right: -100px;
+				top: -100px;
+				background: blue;
+			}
+			.d {
+				position: relative;
+				top: -100px;
+			}
+			.e {
+				position: relative;
+				right: -200px;
+				top: -200px;
+			}
+	</style>
+</head>
+<body>
+	<div id="a">
+		<div class="a">文字</div>
+		<div class="b">文字</div>
+		<div class="c">文字</div>
+		<div class="d">文字</div>
+		<div class="e">文字</div>
+	</div>
+</body>
+</html>
